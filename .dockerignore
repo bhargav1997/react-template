@@ -1,0 +1,18 @@
+# Ignore node_modules and dist folders to prevent large files from being copied into the container
+node_modules
+dist
+
+# Ignore config files and version control directories
+.husky
+.eslintignore
+.eslintrc.json
+.git
+.gitignore
+.dockerignore
+.lintstagedrc
+.prettierignore
+.prettierrc
+
+# Ignore logs and temporary files
+npm-debug.log
+yarn-error.log
